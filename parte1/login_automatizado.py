@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 #Abrir o navegador 
-navegador = webdriver.Chrome()
+navegador = webdriver.Firefox()
 
 #Acessar o site
 navegador.get('https://www.saucedemo.com/')
