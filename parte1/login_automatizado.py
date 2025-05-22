@@ -18,8 +18,9 @@ campo_nome.send_keys("standard_user")
 campo_senha = navegador.find_element("id", "password")
 campo_senha.send_keys("secret_sauce")
 
+#clicando no botão de login
+botao_login = navegador.find_element("id", "login-button")
+botao_login.click()
+
 #Definindo um tempo para o navegador ficar aberto
 time.sleep(10)
-
-
-
