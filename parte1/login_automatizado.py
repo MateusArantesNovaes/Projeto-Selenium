@@ -14,6 +14,10 @@ navegador.maximize_window()
 campo_nome = navegador.find_element("id", "user-name")
 campo_nome.send_keys("standard_user")
 
+#preencher a senha
+campo_senha = navegador.find_element("id", "password")
+campo_senha.send_keys("secret_sauce")
+
 #Definindo um tempo para o navegador ficar aberto
 time.sleep(10)
 
