@@ -25,3 +25,4 @@ def login():
 
     #Definindo um tempo para o navegador ficar aberto
     time.sleep(10)
+    navegador.quit()
